@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <style>
+       
+       header {
+            background-color: #545353;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .experience {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(14, 13, 13, 0.1);
+            margin: 20px;
+            padding: 20px;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .experience img {
+            display: inline-block;
+            margin: 0 auto;
+            padding: 2%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .details {
+            display: none;
+        }
+
+        .details h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            color: #666;
+            margin-bottom: 8px;
+        }
+    </style>
+   
+</head>
+<body>
+    <header>
+
+        <h1> Work Experience</h1>
+</header>
+    <div class="experience" onclick="toggleDetails('organization1')">
+        <img  src="/assets/images/slugta.png" alt="Profile Picture" width="340px" height="480px" style="display: block; margin: 0 auto; padding: 2%; ">
+        <div id="organization1" class="details">
+            <h2>Graduate Teaching Assistant</h2>
+            <p><strong>Professor:Daniel Shown</strong> </p>
+            <p><strong>Course:</strong>Web Technologies </p>
+            <p><strong>Time Worked:</strong> AUGUST 2023 - Present</p>
+            <p><strong>Role:</strong> Teaching Assistant</p>
+            <p><strong>Description:</strong> •	As a Graduate Teaching Assistant for SLU's Web Technologies course, I support students in mastering web development concepts and practical skills, strengthening my proficiency in web technologies and programming. Working closely with instructors, I foster an engaging learning environment, aligning with my career goals in web development and education leadership. </div>
+    </div>
+
+
+    <div class="experience" onclick="toggleDetails('company2')">
+       
+        <img  src="/assets/images/sluex.png" alt="Profile Picture" width="340px" height="480px" style="display: block; margin: 0 auto; padding: 2%;">
+        <div id="company2" class="details">
+            <h2>Excelerate:SLU</h2>
+
+            <p><strong>Time Worked:</strong> June 2023 - July 2023</p>
+            <p><strong>Role:</strong> Data Visualization Intern</p>
+            <p><strong>Description:</strong>•	Collaborated with cross-functional teams to gather and analyze data requirements, translating them into visually appealing dashboards and reports using Power BI.
+                •	Conducted data cleaning and preprocessing to ensure data quality and facilitate accurate visualizations.
+                •	Developed interactive visualizations that provided valuable insights into business performance and trends.
+                •	Presented data findings to stakeholders, effectively conveying complex information through visual storytelling.
+                </div>
+    </div>
+
+    
+
+    <div class="experience" onclick="toggleDetails('company1')">
+
+       
+        <img  src="/assets/images/wipro.jpeg" alt="Profile Picture" width="340px" height="480px" style="display: block; margin: 0 auto; padding: 2%;">
+        
+        <div id="company1" class="details">
+            <h2>WIPRO</h2>
+            <p><strong>Time Worked:</strong> January 2022 - March 2022</p>
+            <p><strong>Role:</strong> Full Stack Java Developer</p>
+            <p><strong>Description:</strong> •	Successfully completed an intensive training program with a focus on AWS and Java technologies.
+                •	Gained practical knowledge of various AWS services, including Amazon EC2, Amazon S3, and AWS Lambda, to design and deploy scalable cloud solutions.
+                •	Acquired proficiency in the Java programming language, covering essential concepts such as object-oriented programming, data structures, and exception handling.
+                •	Demonstrated an understanding of version control using Git, enabling collaborative development and efficient management of code repositories.
+                    
+                </div>
+    </div>
+
+    <div class="experience" onclick="toggleDetails('company01')">
+
+       
+        <img  src="/assets/images/SL.jpeg" alt="Profile Picture" width="340px" height="480px" style="display: block; margin: 0 auto; padding: 2%;">
+        
+        <div id="company01" class="details">
+            <h2>Volunteer Experience </h2>
+            <p><strong>STRANGE LOOP CONFERENCE 2023</strong> </p>
+            
+            <p>Volunteering at the Strange Loop Conference for Art with Charles Comstock.
+
+                During this event, we showcased a unique sculpture that could change its colors through a piece of code.
+                
+                We also experimented with various attributes of the sculpture and assisted in book signings for the event.
+                </p>
+                </div>
+    </div>
+
+    <a class="return-button" href="homepage.html" id="returnButton">Return to Home</a>
+    <br>
+    <br>
+ 
+   
+        <button id="modeToggleBtn">Toggle Mode</button>
+        <script type="text/javascript" src="/javascript/script.js"></script>
+
+      
+</body>
+<footer>
+    <p>Copyright &copy; 2023 Vyshnavi Rao Ponnamaneni</p>
+    </footer>
+</html>

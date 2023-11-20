@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>PORTFOLIO</title>
+<link rel="stylesheet" href="/stylesheet/style.css">  
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    header {
+        background-color: rgb(107, 134, 107);
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav a {
+        color: #333;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    nav a:hover {
+        text-decoration: none;
+        background-color: #9e8b8b;
+    }
+
+    main {
+        margin: 20px;
+    }
+
+    #about-me {
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    #profile-picture {
+        display: block;
+        margin: 0 auto;
+        padding: 2%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #details {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #b69999;
+    }
+
+    button {
+        display: block;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+<h1><strong>Vyshnavi Rao Ponnamaneni</strong> </h1>
+<nav>
+
+<a href="/about.html">ABOUT</a>
+<a href="/education.html">EDUCATION</a>
+<a href="/experience.html">EXPERIENCE</a>
+<a href="/projects.html">PROJECTS</a>
+<a href="/contact.html">CONTACT</a>
+</nav>
+</header>
+
+<main>
+
+<div id="about-me" style="text-align: center;">
+
+    <h1 style="margin-bottom: 10px;">Welcome to my website!</h1>
+
+    <div style="max-width: 80%; margin: 0 auto;">
+
+        <img id="profile-picture" src="/assets/images/image1.jpeg" alt="Profile Picture" width="340px" height="480px" style="display: block; margin: 0 auto; padding: 2%;" onclick="toggleDetails('details')">
+
+        <div id="details">
+            <p><strong>I'm Vyshnavi Rao Ponnamaneni, a dedicated computer science enthusiast specializing in front-end development 
+                and proficient in Java and Python. Currently pursuing my master's degree at SLU, I'm also serving as a teaching 
+                assistant for web technologies. With graduation approaching in May 2024, I'm actively seeking job opportunities 
+                and eager to connect with potential employers. Armed with a strong academic foundation in computer science, backed 
+                by practical experience at Wipro, where I delved into AWS cloud technology, I'm thrilled to share my journey, 
+                insights, and career discussions with you. Join me on this exciting ride through the world of technology and 
+                job prospects!</strong></p>
+        </div>
+
+    </div>
+
+</div>
+
+        
+       
+   
+
+
+
+<button id="modeToggleBtn">Toggle Mode</button>
+<script type="text/javascript" src="/javascript/script.js"></script>
+
+
+</main>
+
+<footer>
+<p>Copyright &copy; 2023 Vyshnavi Rao Ponnamaneni</p>
+</footer>
+
+</body>
+</html>

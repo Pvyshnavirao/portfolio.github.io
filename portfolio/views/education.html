@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #545353;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .education {
+            background-color: #588495;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+        }
+
+        #edupic {
+            display: block;
+            margin: 0 auto;
+            padding: 2%;
+            width: 40%;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #474444;
+        }
+
+       
+       
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Educational Background</h1>
+    </header>
+    <div class="education">
+        <img id="edupic" src="/assets/images/slu.jpeg" alt="Profile Picture" width="340px" height="480px" style="display: block; margin: 0 auto; padding: 2%;" onclick="toggleDetails('details')">
+
+        <h2>Master's Degree</h2>
+        <p>Started in 2022</p>
+        <p>Currently pursuing Master's in SLU </p>
+    </div>
+    <div class="education">
+        <img id="edupic" src="/assets/images/mallareddy.jpeg" alt="Profile Picture" width="340px" height="480px" style="display: block; margin: 0 auto; padding: 2%;" onclick="toggleDetails('details')">
+
+        <h2>Bachelor's Degree</h2>
+        <p>Mallareddy College of Engineering for Women</p>
+        <p>Started in 2018</p>
+        <p>Graduated in 2022</p>
+    </div>
+
+  
+
+    <div class="education">
+        <img id="edupic" src="/assets/images/narayana.png" alt="Profile Picture" width="340px" height="480px" style="display: block; margin: 0 auto; padding: 2%;" onclick="toggleDetails('details')">
+
+        <h2>High School</h2>
+        <p>Narayana Junior College</p>
+        <p>Graduated in 2016</p>
+    </div>
+
+   
+    <a class="return-button" href="homepage.html" id="returnButton">Return to Home</a>
+   <br>
+   <br>
+
+        <button id="modeToggleBtn">Toggle Mode</button>
+        <script type="text/javascript" src="/javascript/script.js"></script>
+
+        
+</body>
+<footer>
+    <p>Copyright &copy; 2023 Vyshnavi Rao Ponnamaneni</p>
+    </footer>
+</html>
